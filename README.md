@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://evil com"><img src="img/ini_malware.png" alt="Oi kiyomasa, nande nande :v" width="100%"></a>
+<a href="https://evil com"><img src="img/jet.jpg" alt="Oi kiyomasa, nande nande :v" width="100%"></a>
 </p>
 
 <p align="center">
