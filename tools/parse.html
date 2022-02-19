@@ -1,0 +1,53 @@
+
+
+
+
+<textarea id="codes" placeholder="Salin script di sini lalu klik 'Kuy Parse'. Untuk parse script baru, klik 'Clear'" spellcheck="false"></textarea> 
+<br />
+<div class="button-group">
+<center>
+<span class="Apple-style-span" style="font-family: &quot;trebuchet ms&quot;; font-size: x-small; line-height: 20px;">Parse HTML &nbsp;oleh &nbsp;<a href="http://www.rekblogging.com/" style="color: #2980b9; text-decoration: none;">rekblogging.com</a></span></center>
+<button id="convert" onclick="cdConvert();this.disabled = true;">Kuy Parse</button><button onclick="cdClear();">Clear</button></div>
+<br />
+<ul id="wrapin">
+<li><input checked="true" id="opt1" type="checkbox" />Konversi <code>&amp;</code> menjadi <code>&amp;amp;</code></li>
+<li><input checked="true" id="opt2" type="checkbox" />Konversi <code>&lt;</code> menjadi <code>&amp;lt;</code></li>
+<li><input checked="true" id="opt3" type="checkbox" />Konversi <code>&gt;</code> menjadi <code>&amp;gt;</code></li>
+<li><input id="opt4" type="checkbox" />Konversi <code>"</code> menjadi <code>&amp;quot;</code></li>
+<li><input id="opt5" type="checkbox" />Konversi <code>'</code> menjadi <code>&amp;#039;</code></li>
+</ul>
+<style type="text/css">
+code{font-family:Consolas,Monaco,'Andale Mono','Courier New',Courier,Monospace;color:#2a5ead;font-size:13px;padding:2px 4px;color:#d14;}
+#codes{font:13px 'Courier New',Monospace;border:1px solid #CCCCCC;width:550px;height:250px;margin:0 auto;display:block;background-color:#f2f2f2;color:#333;padding:15px;}
+.button-group{margin:0 auto 0;text-align:center}
+button,button[disabled]:active{border: none;padding: 5px 12px;color: #fff;background-color: #0ea6d8;cursor: pointer;font-size: 13px;margin: 0 10px;line-height: 23px;border-radius: 3px;transition: all 0.3s ease-in-out;}
+button:active{background:#3f92e1;}
+button[disabled],button[disabled]:active{background:#3f92e1;}
+#opt1,#opt2,#opt3,#opt4,#opt5{display:inline-block;margin-right:10px;}
+</style> 
+<script type="text/javascript">
+function cdClear() {
+    var wtarea = document.getElementById('codes');
+    wtarea.value = '';
+    wtarea.focus();
+    document.getElementById('convert').disabled = false;
+}
+function cdConvert() {
+    var ctarea = document.getElementById('codes'),
+        cv = ctarea.value,
+        opt1 = document.getElementById('opt1'),
+        opt2 = document.getElementById('opt2'),
+        opt3 = document.getElementById('opt3'),
+        opt4 = document.getElementById('opt4'),
+        opt5 = document.getElementById('opt5');
+    cv = cv.replace(/t/g, "    ");
+    if (opt1.checked) cv = cv.replace(/&/g, "&amp;");
+    if (opt2.checked) cv = cv.replace(/</g, "&lt;");
+    if (opt3.checked) cv = cv.replace(/>/g, "&gt;");
+    if (opt4.checked) cv = cv.replace(/"/g, "&quot;");
+    if (opt5.checked) cv = cv.replace(/'/g, "&#039;");
+    ctarea.value = cv;
+    ctarea.focus();
+    ctarea.select();
+};
+</script>
