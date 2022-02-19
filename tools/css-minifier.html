@@ -1,0 +1,41 @@
+<div id="cssminifier">
+<style scoped="">
+#cssminifier{background:#ecf0f1;position:relative;display:block;clear:both;border-radius:5px;padding:20px;border:1px solid rgba(0,0,0,0.05)}
+#cssminifier textarea{width:100%;height:240px;margin:0 auto;display:block;background-color:#f4f4f4;padding:18px;font:normal 13px 'Fira Mono', monospace;border:0;box-shadow:inset 0 0 0 1px rgba(0,0,0,0.05);border-radius:5px 5px 0 0;resize:none}
+textarea:focus{background-color:#f4f4f4;color:#303030}
+#cssminifier .box{margin:10px auto 30px;color:rgba(255,2255,255,.6)}
+#cssminifier .box p{margin:0 0 2px}
+#cssminifier button{cursor:pointer}
+#cssminifier .col{width:48%;margin:0 auto 30px}
+#cssminifier .left{float:left;margin-left:1%}
+#cssminifier .right{float:right;margin-right:1%}
+#cssminifier .button-group{background:#344f61;text-align:center;padding:20px 20px 40px 20px;margin:0;border-radius:0 0 5px 5px}
+#cssminifier button,#cssminifier button[disabled]:active{background:rgba(255,255,255,0.2);text-align:center;color:#fefefe;display:inline-block;padding:6px 12px;font-family:'Poppins',sans-serif;font-size:15px;font-weight:400;line-height:1.471;border-radius:4px;margin:0 5px;border:0;transition:all .1s}
+#cssminifier button:hover,#cssminifier button:active{background:#fff;color:#344f61}
+#cssminifier button[disabled],#cssminifier button[disabled]:active{background:#fff}
+#cssminifier .opt1,#cssminifier .opt2,#cssminifier .opt3,#cssminifier .opt4,#cssminifier .opt5{display:inline-block;margin:0 0 0 10px;vertical-align:middle;border:none;outline:none}
+#cssminifier br{display:none}
+</style>
+<span class="clear"></span>
+<textarea autofocus="" id="cssField" placeholder="Paste your CSS here..." spellcheck="false"></textarea>
+<div class="button-group">
+<div class="box">
+<input class="opt1" id="stripAllComment" type="checkbox"/> 
+<label>Comments</label>
+<input class="opt2" id="superCompact" type="checkbox"/> 
+<label>Compact</label>
+<input class="opt3" id="betterIndentation" type="checkbox"/> 
+<label>Indentation</label>
+<input checked="" class="opt4" id="keepLastComma" type="checkbox"/> 
+<label>Semicolon</label>
+</div>
+<button onclick="compressCSS(&quot;cssField&quot;);">Minify</button>
+<button onclick="clearField(&quot;cssField&quot;);">Clear</button> 
+<button onclick="selectAll(&quot;cssField&quot;);">Select</button>
+</div>
+<div class="clear">
+</div>
+<script>
+function get(e){return document.getElementById(e)}function highlightCode(e){if(hc.checked){var a=e.innerHTML;a=a.replace(/{([sS]+?)}/g,function(e){return e.replace(/'(.*?)'/g,"<span class='st'>'$1'</span>").replace(/"(.*?)"/g,"<span class='st'>"$1"</span>").replace(/({|n|;)?(.[^{]*?):(.[^{]*?)(;|})/g,"$1<span class='pr'>$2</span>:<span class='vl'>$3</span>$4").replace(/<span class='pr'>{/g,"{<span class='pr'>")}),a=a.replace(/&lt;(.*?)('|")(.*?)('|")&gt;/g,function(e){return e.replace(/'(.*?)'/g,"<span class='vl'>'$1'</span>").replace(/"(.*?)"/g,"<span class='vl'>"$1"</span>")}),a=a.replace(/{([sS]+?)}/g,function(e){return e.replace(/([(){}[]:;,]+)/g,"<span class='pn'>$1</span>").replace(/!important/gi,"<span class='im'>!important</span>")}),a=a.replace(//*([wW]+?)*//gm,"<span class='cm'>/*$1*/</span>"),e.innerHTML="<code>"+a+"</code>",hr.style.display="block",rt.style.display="block"}else hr.style.display="none",rt.style.display="none"}function compressCSS(e){var a=get(e),c=/@(media|-w|-m|-o|keyframes|page)(.*?){([sS]+?)?}}/gi,n=a.value,t=n.length;n=sa.checked||sc.checked?n.replace(//*[wW]*?*//gm,""):n.replace(/(n+)?(/*[wW]*?*/)(n+)?/gm,"n$2n"),n=n.replace(/([nrts ]+)?([,:;{}]+?)([nrts ]+)?/g,"$2"),n=sc.checked?n:n.replace(/}(?!})/g,"}n"),n=bi.checked?n.replace(c,function(e){return e.replace(/n+/g,"n  ")}):n.replace(c,function(e){return e.replace(/n+/g,"")}),n=bi.checked&&!sc.checked?n.replace(/}}/g,"}n}"):n,n=bi.checked&&!sc.checked?n.replace(/@(media|-w|-m|-o|keyframes)(.*?){/g,"@$1$2{n  "):n,n=cm.checked?n.replace(/;}/g,"}"):n.replace(/}/g,";}").replace(/;+}/g,";}").replace(/};}/g,"}}"),n=n.replace(/:0(px|em|pt)/gi,":0"),n=n.replace(/ 0(px|em|pt)/gi," 0"),n=n.replace(/s+!important/gi,"!important"),n=n.replace(/(^n+|n+$)/,""),a.value=n,hr.innerHTML="/* "+(t-n.length)+" of "+t+" unused characters has been removed. */n"+n.replace(/</g,"&lt;").replace(/>/g,"&gt;"),highlightCode(hr)}function clearField(e){var a=get(e);a.value="",a.focus()}function selectAll(e){get(e).focus(),get(e).select()}var hc=get("highlightCode"),sa=get("stripAllComment"),sc=get("superCompact"),cm=get("keepLastComma"),bi=get("betterIndentation"),bs=get("breakSelector"),tt=get("toTab"),to=get("tabOpt").getElementsByTagName("input"),sb=get("spaceBetween"),ip=get("inlineSingleProp"),rs=get("removeLastSemicolon"),il=get("inlineLayout"),si=get("singleBreak"),hr=get("highlightedResult"),rt=document.getElementsByTagName("h2")[1];
+</script>
+</div>;
