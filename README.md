@@ -9,8 +9,9 @@
 
 Profile
 =======
-> *Xjusthaxor merupakan nama samaran dari seorang hacker yang bernama cyborg xploit. Awalnya saya tidak mengerti tentanng soal hacking semenjak tersakiti akhirnya saya pun terbentuk.*
+> *Welcome to my github, my skills are not much but I'm interested in learning and trying all things cyber-related including learning programming.*
 
+> *<a href="/">No Hacking No Life</a>*
 <p align="center">
 <a href="https://github.com/xjusthaxor/#403"><img src="https://dabuttonfactory.com/button.png?t=Demo&f=Open+Sans&ts=15&tc=000&hp=25&vp=10&c=5&bgt=unicolored&bgc=cyan">
 </a>
