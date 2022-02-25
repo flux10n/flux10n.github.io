@@ -6,7 +6,6 @@
 <a href="#woy">My skills</a> • <a href="#woy">Installation</a> • <a href="#woy">About me</a> • <a href="#woy">Donation</a> • <a href="#woy">My github page</a>
 </p>
 
-
 Profile
 =======
 > *Welcome to my github, my skills are not much but I'm interested in learning and trying all things cyber-related including learning programming.*
@@ -23,16 +22,9 @@ Profile
 </a>
 </p>
 
+Disclaimer
+==========
+- [ ] I don't want to show talent or skills, but I just want to learn on this github and deepen all my curiosity.
 
-### ⚙️ My stats github 
 
-<p align="center">
-<a href="https://github.com/xjusthaxor">
-<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=xjusthaxor&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true"/>
-<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=xjusthaxor&hide_border=true&cache_seconds=1800&layout=compact&langs_count=8&theme=radical"/> 
-<br>
-<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=xjusthaxor&theme=buefy-dark&hide_border=true&background=1a1b27"/>
-<br>
-<img src="https://github-profile-trophy.vercel.app/?username=xjusthaxor&margin-w=10&no-frame=true&row=1&theme=radical"/>
-</a>
-</p>
+
