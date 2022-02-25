@@ -32,6 +32,6 @@ Profile
   <br/>
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=xjusthaxor&theme=buefy-dark&hide_border=true&background=1a1b27"/>
   <br/>
-  <img src="https://github-profile-trophy.vercel.app/?username=xjusthaxor&margin-w=10&no-frame=true&row=1&theme=darkhub"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=xjusthaxor&margin-w=10&no-frame=true&row=1&theme=radical"/>
   </a>
 </p>
