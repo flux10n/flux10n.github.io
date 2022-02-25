@@ -9,6 +9,11 @@
 <link rel="icon" href="/img/nyan-chat.gif">
 <title>Xjusthaxor | Github Page</title>
 <link rel="stylesheet" href="style.css">
+
+<!-- Loading animasi -->
+<link rel="stylesheet" href="loading.css">
+
+<!-- Bootstrap -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
 <script src="https://kit.fontawesome.com/ca7c0bc365.js" crossorigin="anonymous"></script>
@@ -17,13 +22,12 @@
 <!-- Font google -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap">
-<!-- Akhir font -->
 
 </head>
 <!-- Body -->
 <body>
 
-<!-- Navigation -->
+<!-- Navigation menu -->
 <nav>
 <a href="/"><div class="kepala">- H4X0R -</div></a>
 <input type="checkbox" id="click">
@@ -39,8 +43,18 @@
 </ul>
 </nav>
 
-<!-- Akhir -->
+<!-- Akhir navigation -->
 
+<!-- Loading efek -->
+<div id="loader">
+<div class="cssload-loader">
+<div class="cssload-inner cssload-one"></div>
+<div class="cssload-inner cssload-two"></div>
+<div class="cssload-inner cssload-three"></div>
+</div>
+</div>
+
+<!-- Profil -->
 <img src="/img/author.png" alt="zzz"><br><br>
 <b><p>Hi, my name is alfian. I am 15 years old and I will learn more about IT. I come from East Java, Indonesia is too early to give up that's my poem.<br><br>- Alfian Xploit -</p></b>
 <a href="https://privacy1337.blogspot.com" target="_blank">
@@ -77,5 +91,21 @@
 
  <b><p>Copyright &copy; 2022 - <a href="https://github.com/xjusthaxor"><i class="fa fa-refresh fa-spin"></i> I'm, not hacker</a></p>
 <br>
+
+<!-- Akhir efek loading -->
+<script>
+var myVar;
+
+function myFunction() {
+myVar = setTimeout(showPage, 1000);
+}
+
+function showPage() {
+document.getElementById("loader").style.display = "none";
+document.getElementById("myDiv").style.display = "block";
+}
+</script>
+<!-- Last -->
+
 </body>
 </html>
