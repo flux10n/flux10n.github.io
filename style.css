@@ -1,7 +1,6 @@
 
   body{
   background-color:#F0F7FF; 
-  animation: fadeInUp .8s;
   }
   *{
   margin: 0;
@@ -10,7 +9,7 @@
   font-family: 'Noto Serif Display', serif;
   text-align:center;
   scroll-behavior: smooth;
-  display:flex;
+  animation: fadeInUp .8s;
   } 
   nav{
   display: flex;
