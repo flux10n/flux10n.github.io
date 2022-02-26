@@ -27,6 +27,9 @@
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
   }
+  nav.kepala:hover{
+  color:gold;
+  }
   nav ul{
   display: flex;
   flex-wrap: wrap;
@@ -122,9 +125,9 @@
   }
   /* Button setting */
   button{
-  font-family: 'Noto Serif Display', serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 13px;
-  background: #2979ff;
+  background: #9600FF;
   color: white;							/*button*/
   border: black 1px solid;
   border-radius: 7px;
@@ -133,6 +136,7 @@
   }
   button:hover{
   opacity:0.9;
+  background-red;
   }
   /* akhir */
   a{
