@@ -84,6 +84,18 @@ window.location.hash = hash;
 </div>
 <!-- Loading efek -->
 <div id="myDiv">
+<!-- Akhir loading -->
+<script>
+var myVar;
+function myFunction() {
+myVar = setTimeout(showPage, 1000);
+}
+function showPage() {
+document.getElementById("loader").style.display = "none";
+document.getElementById("myDiv").style.display = "block";
+}
+</script>
+<!-- Terakhir -->
 
 <!-- Profil -->
 <img src="/img/author.png" alt="zzz"><br><br>
