@@ -123,8 +123,8 @@
   button{
   font-family: 'Noto Serif Display', serif;
   font-size: 13px;
-  background: transparent;
-  color: black;							/*button*/
+  background: #8000FF;
+  color: white;							/*button*/
   border: black 1px solid;
   border-radius: 5px;
   padding: 12px 20px;
