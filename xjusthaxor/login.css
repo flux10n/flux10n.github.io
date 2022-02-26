@@ -1,5 +1,5 @@
-<style>
-https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap
+
+
  *{
  margin: 0;
  padding: 0;
@@ -8,12 +8,11 @@ https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap
  }
  body{
  height: 100vh;
- background-color:black;
+ background-image:url(https://i.ibb.co/6mGgWXq/blue-and-black-wooden-board-iphone-11.jpg);
  background-size: cover;
  background-position: center;
  background-repeat: no-repeat;
  }
- 
  .container{
  position: absolute;
  left: 50%;
@@ -57,4 +56,3 @@ https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap
  color:white;
  font-size:6vw;
  }
-</style>
