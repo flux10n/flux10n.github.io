@@ -123,11 +123,11 @@
   button{
   font-family: 'Noto Serif Display', serif;
   font-size: 13px;
-  background: #0060FF;
+  background: #5800FF;
   color: white;							/*button*/
   border: black 1.4px solid;
-  border-radius: 6px;
-  padding: 12px 20px;
+  border-radius: 7px;
+  padding: 11px 20px;
   margin-top: 10px;
   }
   button:hover{
