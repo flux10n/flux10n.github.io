@@ -123,9 +123,9 @@
   button{
   font-family: 'Noto Serif Display', serif;
   font-size: 13px;
-  background: #8000FF;
+  background: #0060FF;
   color: white;							/*button*/
-  border: black 1.3px solid;
+  border: black 1.4px solid;
   border-radius: 6px;
   padding: 12px 20px;
   margin-top: 10px;
