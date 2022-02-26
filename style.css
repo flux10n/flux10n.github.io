@@ -12,6 +12,7 @@
   box-sizing: border-box;
   font-family: 'Noto Serif Display', serif;
   text-align:center;
+  animation: fadeInDown .8s;
   } 
   nav{
   display: flex;
