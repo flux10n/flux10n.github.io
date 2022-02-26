@@ -8,7 +8,11 @@
 <meta name="description" author="alfian.xploit">
 <link rel="icon" href="/img/nyan-chat.gif">
 <title>Xjusthaxor | Github Page</title>
+
+<!-- Tag style -->
 <link rel="stylesheet" href="style.css">
+
+<!-- Animasi loading -->
 <link rel="stylesheet" href="animate.css">
 
 <!-- Bootstrap -->
@@ -21,7 +25,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap">
 
-<!-- Smooth scrool -->
+<!-- Smooth scrooling -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
@@ -49,9 +53,9 @@ window.location.hash = hash;
  });
 });
 </script>
-<!-- Last smoot scrool -->
-</head>
+<!-- Last smooth scrool -->
 
+</head>
 <body>
 <!-- Navigasi menu -->
 <nav>
@@ -68,7 +72,18 @@ window.location.hash = hash;
 <li><a href="/404">Posted</a></li>
 </ul>
 </nav>
-<!-- Akhir navigation -->
+
+<br><br><br><br>
+<!-- Loading efek -->
+<div id="loader">
+<div class="cssload-loader">
+<div class="cssload-inner cssload-one"></div>
+<div class="cssload-inner cssload-two"></div>
+<div class="cssload-inner cssload-three"></div>
+</div>
+</div>
+<!-- Loading efek -->
+<div id="myDiv">
 
 <!-- Profil -->
 <img src="/img/author.png" alt="zzz"><br><br>
@@ -107,5 +122,20 @@ window.location.hash = hash;
 
  <b><p>Copyright &copy; 2022 - <a href="https://github.com/xjusthaxor"><i class="fa fa-refresh fa-spin"></i> I'm, not hacker</a></p>
 <br>
+
+<!-- Akhir loading -->
+<script >
+var myVar;
+
+function myFunction() {
+myVar = setTimeout(showPage, 1000);
+}
+
+function showPage() {
+document.getElementById("loader").style.display = "none";
+document.getElementById("myDiv").style.display = "block";
+}
+</script>
+<!-- Terakhir -->
 </body>
 </html>
