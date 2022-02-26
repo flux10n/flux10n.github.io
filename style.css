@@ -8,8 +8,6 @@
   box-sizing: border-box;
   font-family: 'Noto Serif Display', serif;
   text-align:center;
-  scroll-behavior: smooth;
-  animation: fadeInUp .8s;
   } 
   nav{
   display: flex;
@@ -26,8 +24,9 @@
   font-size: 35px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
+  animation: typewriter 4s steps(44)
   }
-  nav.kepala:hover{
+  nav .kepala:hover{
   color:gold;
   }
   nav ul{
@@ -123,6 +122,7 @@
   font-size: 40px;
   font-weight: 700;
   }
+
   /* Button setting */
   button{
   font-family: 'Poppins', sans-serif;
@@ -139,6 +139,7 @@
   background-red;
   }
   /* akhir */
+
   a{
   font-family: 'Noto Serif Display', serif;
   color:red;
@@ -149,24 +150,59 @@
   font-family: 'Noto Serif Display', serif;
   text-decoration:none;
   }
+
   h3{
   font-family:sans-serif;
   color:black;
   letter-spacing:2px;
   font-size:3.5vw;
   }
+
   img{
   width:30%;
   margin-top:20%;
   border-radius:100%;
   }
+
   p{
   font-family: 'Noto Serif Display', serif;
   font-size:2.8vw;
   }
-  .sus{
-   background-color: black;
-   margin-top: -5px;
-   color:white;
-   height: 850px !important;
+
+  @keyframes typewriter {
+  from {
+  width: 0;
+  }
+  to {
+  width: 20.5em;
+    }
+}
+
+   @keyframes blinkTextCursor {
+   from {
+   border-right-color: rgba(255, 255, 255, .75);
    }
+   to {
+   border-right-color: transparent;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+    transform: translate3d(0, 150px, 0)
+    }
+    to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+    transform: translate3d(0, -150px, 0)
+    }
+    to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1
+    }
+}
