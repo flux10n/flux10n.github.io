@@ -10,23 +10,6 @@ text-align:center;
 font-family: 'Poppins', sans-serif;
 }
 
-.button {
-font-family: 'Questrial', sans-serif;
-font-size:3.5vw;
-background:white;
-color:black;
-border: black 1px solid;
-border-radius: 50px;
-padding: 8px 23px;
-letter-spacing:1px;
-text-align :center;
-}
-button:hover{
-background:white;
-opacity:0.9;
-color:red;
-}
-
 /* Setting font */
 h2{
 font-family: 'Questrial', sans-serif;
