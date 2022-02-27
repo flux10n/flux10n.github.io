@@ -151,19 +151,11 @@
   text-decoration:none;
   }
 
-  .ano h3{
+  h3{
   font-family:sans-serif;
   color:black;
   letter-spacing:2px;
   font-size:3.5vw;
-  }
-
-  .ano {
-  color:white;
-  font-family: 'Noto Serif Display', serif;
-  background-color: black;
-  margin-top: -5px;
-  height: 250px !important;
   }
 
   img{
