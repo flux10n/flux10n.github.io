@@ -1,0 +1,134 @@
+body {
+background-image:url(https://www.desktopbackground.org/p/2011/01/17/143432_2592x1728px-3372-41-kb-starry-sky_2560x1600_h.jpg);
+width:auto;
+height:auto;
+background-size:cover;
+background-attachment:fixed;
+scroll-behavior: smooth;
+animation: fadeInUp .8s;
+text-align:center;
+font-family: 'Poppins', sans-serif;
+}
+
+.button {
+font-family: 'Questrial', sans-serif;
+font-size:3.5vw;
+background:white;
+color:black;
+border: black 1px solid;
+border-radius: 50px;
+padding: 8px 23px;
+letter-spacing:1px;
+text-align :center;
+}
+button:hover{
+background:white;
+opacity:0.9;
+color:red;
+}
+
+/* Setting font */
+h2{
+font-family: 'Questrial', sans-serif;
+color:white;
+font-size:6vw;
+letter-spacing:1px;
+text-align:center;
+}
+h2:hover {
+color:#651FFF;
+text-shadow:0px 0px 36px #651FFF;
+text-align:center;
+}
+
+hr{
+opacity: 0.5;
+color:white;
+text-align:center;
+}
+
+p {
+font-size:2.8vw;
+color:white;
+
+}
+
+a {
+color: white;
+text-decoration:none;
+font-family: 'Poppins', sans-serif;
+}
+a:hover {
+color:#651FFF;
+text-decoration:none;
+font-family: 'Poppins', sans-serif;
+}
+/* Akhir setting font */
+
+.kepala {
+color:white;
+font-size:15px;
+font-weight:600;
+font-family: 'Poppins', sans-serif;
+text-align:right;
+padding: 4px 20px;
+}
+.badan {
+text-align:center;
+margin-top:5%;
+}
+
+.ano {
+text-align:left;
+padding: 10px 20px;
+font-family: 'Poppins', sans-serif;
+color:white;
+background-color: #16161a;
+margin-top: -5px;
+height:1880px !important;
+border-radius:10px;
+}
+
+img {
+border-radius: 5%;
+text-align: center;
+width: 100%;
+}
+
+@keyframes typewriter {
+from {
+width: 0;
+}
+to {
+width: 20.5em;
+}
+}
+
+@keyframes blinkTextCursor {
+from {
+border-right-color: rgba(255, 255, 255, .75);
+}
+to {
+ border-right-color: transparent;
+ }
+}
+
+@keyframes fadeInUp {
+from {
+transform: translate3d(0, 150px, 0)
+}
+to {
+transform: translate3d(0, 0, 0);
+opacity: 1
+    }
+}
+
+@keyframes fadeInDown {
+from {
+transform: translate3d(0, -150px, 0)
+}
+to {
+transform: translate3d(0, 0, 0);
+opacity: 1
+}
+}
