@@ -167,7 +167,6 @@
   p{
   font-family: 'Noto Serif Display', serif;
   font-size:2.8vw;
-  animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 530ms steps(44) infinite normal;
   }
 
 @keyframes typewriter {
