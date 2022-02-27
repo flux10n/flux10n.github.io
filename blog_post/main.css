@@ -25,13 +25,8 @@ text-align:center;
 }
 
 hr{
-opacity: 0.8;
+opacity: 0.5;
 color:white;
-text-align:center;
-}
-hr:hover{
-opacity: 0.9;
-color:blue;
 text-align:center;
 }
 
