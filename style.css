@@ -26,8 +26,7 @@
   font-family: 'Poppins', sans-serif;
   }
   nav .kepala:hover{
-  color:gold;
-  text-shadow: 0px 0px 15px gold;
+  color:#651FFF;
   }
   nav ul{
   display: flex;
