@@ -124,19 +124,23 @@
 
   /* Button setting */
   button{
-  font-family: 'Poppins', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform : uppercase;
   font-size: 13px;
-  background: #2962FF;
-  color: white;							/*button*/
-  border: black 1.4px solid;
+  background: transparent;
+  color: black;							/*button*/
+  border: black 2px solid;
   border-radius: 7px;
   padding: 9px 21px;
   margin-top: 10px;
   }
   button:hover{
-  opacity: 0.9;
-  background: #651FFF;
-  text-shadow:0px 0px 7px black;
+  opacity: 1;
+  background: black;
+  color:white;
+  border: black 2px solid;
+  text-transform : uppercase;
+  font-family: Arial, Helvetica, sans-serif;
   }
   /* akhir */
 
