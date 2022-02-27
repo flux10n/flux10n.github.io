@@ -30,9 +30,9 @@ color:white;
 text-align:center;
 }
 hr:hover{
-opacity: 1;
-color: black;
-text-shadow: 0px 0px 20px #651FFF;
+opacity: 0.9;
+color: #651FFF;
+twxt-align:center;
 }
 
 p {
