@@ -8,7 +8,7 @@ Wassup bro ada apa gerangan kemari?
 - [Tydack suka wibu](#)
   - [Baru keluar goa bang jgn diganggu](#)
   - [Bukan manusia bang saya makhluk alus 🤡](#)
-  - [Find me on to 🌏=> outer space 🪐... 🗿🗿🗿🗿
+  - [Find me on to 🌏=> outer space 🪐... 🗿🗿🗿🗿](#)
 
 
 </details>
