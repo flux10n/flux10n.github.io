@@ -125,16 +125,16 @@
   /* Button setting */
   button{
   font-family: 'Poppins', sans-serif;
-  font-size: 12px;
-  background: #9600FF;
+  font-size: 13px;
+  background: #2962FF;
   color: white;							/*button*/
-  border: black 1px solid;
+  border: black 1.4px solid;
   border-radius: 7px;
   padding: 11px 20px;
   margin-top: 10px;
   }
   button:hover{
-  opacity:0.9;
+  opacity: 0.9;
   background: red;
   }
   /* akhir */
