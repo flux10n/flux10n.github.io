@@ -168,3 +168,13 @@
   font-family: 'Noto Serif Display', serif;
   font-size:2.8vw;
   }
+
+  .ano {
+  text-align:center;
+  font-family: 'Noto Serif Display', serif;
+  color:white;
+  background-color: #16161a;
+  margin-top: -5px;
+  height:1880px !important;
+  border-radius:10px;
+  }
