@@ -1,5 +1,6 @@
-  body{
+  html{
   background-color:#F0F7FF; 
+  scroll-behavior: smooth;
   }
   *{
   margin: 0;
