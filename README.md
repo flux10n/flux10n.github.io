@@ -7,7 +7,9 @@
 
 - Here are the tools and features on my github repository page:
 - [ ] [word counter](#) <≈ I got it from another website and I didn't have time to change the design.
-
+- [ ] [html encrypt](#)
+- [ ] [color picker](#)
+- [ ] [parse html](#)
 
 <hr width="40%">
 <hr width="50%">
