@@ -6,10 +6,9 @@
   - **🔧 Fitures:** There's nothing special here, just additional tools and copy and paste from the neighboring website, I'm not very good at making hacking tools, but I like designing the body and pentest of the website.
 
 - Here are the tools and features on my github repository page:
-- [ ] [word counter](#) <≈ I got it from another website and I didn't have time to change the design.
+- [ ] [word counter](#) 
 - [ ] [html encrypt](#)
 - [ ] [color picker](#)
 - [ ] [parse html](#)
 
-<hr width="40%">
-<hr width="50%">
+- So that's all I can write in this article and goodbye.
