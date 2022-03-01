@@ -140,7 +140,7 @@
   background: black;
   color:white;
   border: black 2px solid;
-  transition: 0.5s;
+  transition: 0.7s;
   text-transform : uppercase;
   font-family: Arial, Helvetica, sans-serif;
   }
@@ -164,6 +164,7 @@
   }
   h3:hover{
   color: blue;
+  transition: 0.7s;
   }
   img{
   width:30%;
