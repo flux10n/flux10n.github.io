@@ -23,8 +23,7 @@
   color: #00FF3B;
   font-size: 35px;
   font-weight: 600;
-  font-family: riv, ok;
-  src: url('/font/ok.ttf');
+  font-family: 'Poppins', sans-serif;
   }
   nav .kepala:hover{
   color: blue;  
