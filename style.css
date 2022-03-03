@@ -195,7 +195,7 @@
   84%{color:#8B00FF}
   100%{color:#FF0000}
   }
-  .blinkrainbow{
+  .kepala .blinkrainbow{
   -webkit-animation:blinkrainbow 6s linear infinite;
   -moz-animation:blinkrainbow 6s linear infinite;
   animation:blinkrainbow 6s linear infinite
