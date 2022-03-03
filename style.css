@@ -162,8 +162,8 @@ text-decoration:none;
 h3{
 font-family:sans-serif;
 color:black;
-letter-spacing:2px;
-font-size:3.5vw;
+letter-spacing:0.5px;
+font-size:4vw;
 }
 h3:hover{
 color: blue;
