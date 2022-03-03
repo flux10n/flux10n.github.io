@@ -1,212 +1,237 @@
-  html{
-  background-color:#EEEEFF; 
-  scroll-behavior: smooth;
-  }
-  *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Noto Serif Display', serif;
-  text-align:center;
-  } 
-  nav{
-  display: flex;
-  height: 80px;
-  width: 100%;
-  background: #1b1b1b;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 50px 0 100px;
-  flex-wrap: wrap;
-  }
-  nav .kepala{
-  color: #00FF3B;
-  font-size: 35px;
-  font-weight: 600;
-  font-family: 'Poppins', sans-serif;
-  }
-  nav .kepala:hover{
-  color: blue;  
-  }
-  nav ul{
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  }
-  nav ul li{
-  margin: 0 5px;
-  }
-  nav ul li a{
-  color: #f2f2f2;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 8px 15px;
-  border-radius: 5px;
-  letter-spacing: 1px;
-  transition: all 0.3s ease;
-  }
-  nav ul li a.active,
-  nav ul li a:hover{
-  color: #111;
-  background: #fff;
-  }
-  nav .menu-btn i{
-  color: #fff;
-  font-size: 22px;
-  cursor: pointer;
-  display: none;
-  }
-  input[type="checkbox"]{
-  display: none;
-  }
-  @media (max-width: 1000px){
-  nav{
-  padding: 0 40px 0 50px;
-  }
-  }
-  @media (max-width: 920px) {
-  nav .menu-btn i{
-  display: block;
-  }
-  #click:checked ~ .menu-btn i:before{
-  content: "\f00d";
-  }
-  nav ul{
-  position: fixed;
-  top: 80px;
-  left: -100%;
-  background: #111; /* disini tempatnya */
-  height: 100vh;
-  width: 100%;
-  text-align: center;
-  display: block;
-  transition: all 0.3s ease;
-  }
-  #click:checked ~ ul{
-  left: 0;
-  }
-  nav ul li{
-  width: 100%;
-  margin: 40px 0;
-  }
-  nav ul li a{
-  width: 100%;
-  margin-left: -100%;
-  display: block;
-  font-size: 20px;
-  transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  #click:checked ~ ul li a{
-  margin-left: 0px;
-  }
-  nav ul li a.active,
-  nav ul li a:hover{
-  background: none;
-  color: blue;
-  }
-  }
-  .content{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  z-index: -1;
-  width: 100%;
-  padding: 0 30px;
-  color: #1b1b1b;
-  }
-  .content div{
-  font-size: 40px;
-  font-weight: 700;
-  }
-  /* Button setting */
-  button{
-  font-family: Arial, Helvetica, sans-serif;
-  text-transform : uppercase;
-  font-size: 13px;
-  background: transparent;
-  color: black;							
-  border: black 2px solid;
-  border-radius: 6px;
-  padding: 9px 21px;
-  margin-top: 10px;
-  letter-spacing:4px;
-  }
-  button:hover{
-  letter-spacing:4px;
-  opacity: 1;
-  background: black;
-  color:white;
-  border: black 2px solid;
-  transition: 0.8s;
-  text-transform : uppercase;
-  font-family: Arial, Helvetica, sans-serif;
-  }
-  /* akhir */
-  
-  a{
-  font-family: 'Noto Serif Display', serif;
-  color:red;
-  text-decoration:none;
-  }
-  a:hover{
-  color:red;
-  font-family: 'Noto Serif Display', serif;
-  text-decoration:none;
-  }
-  h3{
-  font-family:sans-serif;
-  color:black;
-  letter-spacing:2px;
-  font-size:3.5vw;
-  }
-  h3:hover{
-  color: blue;
-  transition: 0.7s;
-  }
-  img{
-  width:32%;
-  margin-top:20%;
-  border-radius:100%;
-  box-shadow: 0px 0px 5px black;
-  }
-  img:hover{
-  box-shadow: 0px 0px 20px blue;
-  border-radius:100%;
-  transition: 0.9s;
-  }
-  p{
-  font-family: 'Noto Serif Display', serif;
-  font-size:2.8vw;
-  }
+html{
+background-color:#EEEEFF; 
+scroll-behavior: smooth;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Noto Serif Display', serif;
+text-align:center;
+} 
 
-  /* font rainbow */
-  @keyframes blinkrainbow{
-  0%{color:#FF0000}
-  14%{color:#FF7F00}
-  28%{color:#FFFF00}
-  42%{color:#00FF00}
-  56%{color: #0000FF}
-  70%{color:#4B0082}
-  84%{color:#8B00FF}
-  100%{color:#FF0000}
-  }
-  @-webkit-keyframes blinkrainbow{
-  0%{color:#FF0000}
-  14%{color:#FF7F00}
-  28%{color:#FFFF00}
-  42%{color:#00FF00}
-  56%{color: #0000FF}
-  70%{color:#4B0082}
-  84%{color:#8B00FF}
-  100%{color:#FF0000}
-  }
-  .kepala .blinkrainbow{
-  font-family: 'Poppins', sans-serif;
-  -webkit-animation:blinkrainbow 8s linear infinite;
-  -moz-animation:blinkrainbow 8s linear infinite;
-  animation:blinkrainbow 8s linear infinite
-  }
+nav{
+display: flex;
+height: 80px;
+width: 100%;
+background: #1b1b1b;
+align-items: center;
+justify-content: space-between;
+padding: 0 50px 0 100px;
+flex-wrap: wrap;
+}
+nav .kepala{
+color: #00FF3B;
+font-size: 35px;
+font-weight: 600;
+font-family: 'Poppins', sans-serif;
+}
+nav .kepala:hover{
+color: blue;  
+}
+nav ul{
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+}
+nav ul li{
+margin: 0 5px;
+}
+nav ul li a{
+color: #f2f2f2;
+text-decoration: none;
+font-size: 18px;
+font-weight: 500;
+padding: 8px 15px;
+border-radius: 5px;
+letter-spacing: 1px;
+transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover{
+color: #111;
+background: #fff;
+}
+nav .menu-btn i{
+color: #fff;
+font-size: 22px;
+cursor: pointer;
+display: none;
+}
+input[type="checkbox"]{
+display: none;
+}
+@media (max-width: 1000px){
+nav{
+padding: 0 40px 0 50px;
+}
+}
+@media (max-width: 920px) {
+nav .menu-btn i{
+display: block;
+}
+#click:checked ~ .menu-btn i:before{
+content: "\f00d";
+}
+nav ul{
+position: fixed;
+top: 80px;
+left: -100%;
+background: #111; 
+height: 100vh;
+width: 100%;
+text-align: center;
+display: block;
+transition: all 0.3s ease;
+}
+#click:checked ~ ul{
+left: 0;
+}
+nav ul li{
+width: 100%;
+margin: 40px 0;
+}
+nav ul li a{
+width: 100%;
+margin-left: -100%;
+display: block;
+font-size: 20px;
+transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+#click:checked ~ ul li a{
+margin-left: 0px;
+}
+nav ul li a.active,
+nav ul li a:hover{
+background: none;
+color: blue;
+}
+ }
+.content{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+z-index: -1;
+width: 100%;
+padding: 0 30px;
+color: #1b1b1b;
+}
+.content div{
+font-size: 40px;
+font-weight: 700;
+}
+
+/* Button setting */
+button{
+font-family: Arial, Helvetica, sans-serif;
+text-transform : uppercase;
+font-size: 13px;
+background: transparent;
+color: black;							
+border: black 2px solid;
+border-radius: 6px;
+padding: 9px 21px;
+margin-top: 10px;
+letter-spacing:4px;
+}
+button:hover{
+letter-spacing:4px;
+opacity: 1;
+background: black;
+color:white;
+border: black 2px solid;
+transition: 0.8s;
+text-transform : uppercase;
+font-family: Arial, Helvetica, sans-serif;
+}
+/* akhir */
+  
+a{
+font-family: 'Noto Serif Display', serif;
+color:red;
+text-decoration:none;
+}
+a:hover{
+color:red;
+font-family: 'Noto Serif Display', serif;
+text-decoration:none;
+}
+
+h3{
+font-family:sans-serif;
+color:black;
+letter-spacing:2px;
+font-size:3.5vw;
+}
+h3:hover{
+color: blue;
+transition: 0.7s;
+}
+
+img{
+width:32%;
+margin-top:20%;
+border-radius:100%;
+box-shadow: 0px 0px 5px black;
+}
+img:hover{
+box-shadow: 0px 0px 20px blue;
+border-radius:100%;
+transition: 0.9s;
+}
+
+p{
+font-family: 'Noto Serif Display', serif;
+font-size:2.8vw;
+}
+
+/* font rainbow */
+@keyframes blinkrainbow{
+0%{color:#FF0000}
+14%{color:#FF7F00}
+28%{color:#FFFF00}
+42%{color:#00FF00}
+56%{color: #0000FF}
+70%{color:#4B0082}
+84%{color:#8B00FF}
+100%{color:#FF0000}
+}
+@-webkit-keyframes blinkrainbow{
+0%{color:#FF0000}
+14%{color:#FF7F00}
+28%{color:#FFFF00}
+42%{color:#00FF00}
+56%{color: #0000FF}
+70%{color:#4B0082}
+84%{color:#8B00FF}
+100%{color:#FF0000}
+}
+.kepala .blinkrainbow{
+font-family: 'Poppins', sans-serif;
+-webkit-animation:blinkrainbow 8s linear infinite;
+-moz-animation:blinkrainbow 8s linear infinite;
+animation:blinkrainbow 8s linear infinite
+}
+
+@keyframes fadeInUp {
+from {
+transform: translate3d(0, 150px, 0)
+}
+to {
+transform: translate3d(0, 0, 0);
+opacity: 1
+    }
+}
+
+@keyframes fadeInDown {
+from {
+transform: translate3d(0, -150px, 0)
+}
+to {
+transform: translate3d(0, 0, 0);
+opacity: 1
+}
+}
   
