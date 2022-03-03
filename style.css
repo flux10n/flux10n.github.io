@@ -175,3 +175,28 @@
   font-family: 'Noto Serif Display', serif;
   font-size:2.8vw;
   }
+  @keyframes blinkrainbow{
+  0%{color:#FF0000}
+  14%{color:#FF7F00}
+  28%{color:#FFFF00}
+  42%{color:#00FF00}
+  56%{color: #0000FF}
+  70%{color:#4B0082}
+  84%{color:#8B00FF}
+  100%{color:#FF0000}
+  }
+  @-webkit-keyframes blinkrainbow{
+  0%{color:#FF0000}
+  14%{color:#FF7F00}
+  28%{color:#FFFF00}
+  42%{color:#00FF00}
+  56%{color: #0000FF}
+  70%{color:#4B0082}
+  84%{color:#8B00FF}
+  100%{color:#FF0000}
+  }
+  .blinkrainbow{
+  -webkit-animation:blinkrainbow 6s linear infinite;
+  -moz-animation:blinkrainbow 6s linear infinite;
+  animation:blinkrainbow 6s linear infinite
+  }
