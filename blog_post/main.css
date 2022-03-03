@@ -23,6 +23,7 @@ h2:hover {
 color:#651FFF;
 text-shadow:0px 0px 36px #651FFF;
 text-align:center;
+transition: 0.8s;
 }
 
 hr{
@@ -86,15 +87,6 @@ width: 0;
 to {
 width: 20.5em;
 }
-}
-
-@keyframes blinkTextCursor {
-from {
-border-right-color: rgba(255, 255, 255, .75);
-}
-to {
- border-right-color: transparent;
- }
 }
 
 @keyframes fadeInUp {
