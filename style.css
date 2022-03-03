@@ -196,6 +196,7 @@
   100%{color:#FF0000}
   }
   .kepala .blinkrainbow{
+  font-family: 'Poppins', sans-serif;
   -webkit-animation:blinkrainbow 6s linear infinite;
   -moz-animation:blinkrainbow 6s linear infinite;
   animation:blinkrainbow 6s linear infinite
