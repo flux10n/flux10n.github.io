@@ -170,6 +170,7 @@
   width:32%;
   margin-top:20%;
   border-radius:100%;
+  box-shadow: 0px 0px 10px black;
   }
   img:hover{
   box-shadow: 0px 0px 20px blue;
