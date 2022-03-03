@@ -201,14 +201,4 @@
   -moz-animation:blinkrainbow 8s linear infinite;
   animation:blinkrainbow 8s linear infinite
   }
-  .media-icons{
-  line-height: 43px;
-  border-radius: 5px;
-  border: 2px solid #222222;
-  margin: 30px 5px 0 0;
-  transition: all 0.3s ease;
-  display: inline-block;
-  }
-  .media-icons:hover{
-  border-color: #eb2f06;
-  }
+  
