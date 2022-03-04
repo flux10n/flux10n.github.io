@@ -1,6 +1,11 @@
 html{
 background-color:#EEEEFF; 
 scroll-behavior: smooth;
+user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+-khtml-user-select:none;
+-webkit-user-select:none
 }
 *{
 margin: 0;
