@@ -27,12 +27,9 @@ flex-wrap: wrap;
 }
 nav .kepala{
 color: #00FF3B;
-font-size: 32px;
+font-size:28px;
 font-weight: 600;
 font-family: 'Poppins', sans-serif;
-}
-nav .kepala:hover{
-color: blue;  
 }
 nav ul{
 display: flex;
@@ -216,9 +213,9 @@ padding:16px;
 }
 .kepala .blinkrainbow{
 font-family: 'Poppins', sans-serif;
--webkit-animation:blinkrainbow 8s linear infinite;
--moz-animation:blinkrainbow 8s linear infinite;
-animation:blinkrainbow 8s linear infinite
+-webkit-animation:blinkrainbow 5s linear infinite;
+-moz-animation:blinkrainbow 5s linear infinite;
+animation:blinkrainbow 5s linear infinite
 }
 
 @keyframes fadeInUp {
