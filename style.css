@@ -166,7 +166,7 @@ text-decoration:none;
 a:hover{
 color:red;
 transition:0.8s;
-text-decoration:underline;
+text-decoration:none;
 }
 
 ul > li{
