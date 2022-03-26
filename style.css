@@ -1,6 +1,5 @@
 html{
 background-color: white; 
-padding:13px;
 scroll-behavior: smooth;
 user-select:none;
 -moz-user-select:none;
@@ -190,7 +189,8 @@ transition: 0.9s;
 
 p{
 font-family: 'Questrial', sans-serif;
-font-size:2.8vw;
+font-size:2.9vw;
+padding:16px;
 }
 
 /* font rainbow */
