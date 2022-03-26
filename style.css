@@ -31,7 +31,7 @@ font-family: 'Poppins', sans-serif;
 nav .kepala{
 color: #00FF3B;
 font-size:32px;
-font-style:normal;
+font-style: normal;
 font-weight: 600;
 font-family: 'Syne Mono', monospace;
 }
@@ -167,6 +167,8 @@ text-decoration:none;
 
 h3{
 font-family: 'Syne Mono', monospace;
+font-style: normal;
+font-weight: normal;
 color:black;
 padding:20px;
 text-align:left;
