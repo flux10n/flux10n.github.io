@@ -168,15 +168,9 @@ text-decoration:none;
 h3{
 font-family: 'Syne Mono', monospace;
 color:black;
-padding:25px;
+padding:20px;
 text-align:left;
 font-size:4.5vw;
-}
-h3:hover{
-font-family: 'Syne Mono', monospace;
-color: black;
-opacity:0.8;
-transition: 0.7s;
 }
 
 img{
