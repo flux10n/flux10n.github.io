@@ -159,16 +159,20 @@ font-family: Arial, Helvetica, sans-serif;
   
 
 a{
-font-family: 'Noto Serif Display', serif;
+font-family: 'Poppins', sans-serif;
 color:red;
 text-decoration:none;
 }
 a:hover{
 color:red;
-font-family: 'Noto Serif Display', serif;
 text-decoration:none;
 }
 
+ul > li{
+font-size:2.7vw;
+font-family: 'Poppins', sans-serif;
+padding:35px;
+}
 
 h3{
 font-family: 'Syne Mono', monospace;
@@ -212,10 +216,6 @@ padding:25px;
 text-align:left;
 }
 
-ul > li{
-line-height: 1.6;
-font-family: 'Poppins', sans-serif;
-}
 
 /* font rainbow */
 @keyframes blinkrainbow{
@@ -245,7 +245,3 @@ font-family: 'Poppins', sans-serif;
 animation:blinkrainbow 5s linear infinite
 }
 
-@media {
-html{
-font-size: .85em;
-}
