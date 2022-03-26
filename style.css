@@ -168,9 +168,10 @@ text-decoration:none;
 h3{
 font-family: 'Syne Mono', monospace;
 color:black;
+padding:20px;
 font-style:normal;
 text-align:left;
-font-wight:normal;
+font-weight:normal;
 letter-spacing:0.5px;
 font-size:4.5vw;
 }
