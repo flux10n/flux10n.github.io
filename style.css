@@ -167,7 +167,7 @@ h3{
 font-family:sans-serif;
 color:black;
 letter-spacing:0.5px;
-font-size:6vw;
+font-size:4.5vw;
 }
 h3:hover{
 color: black;
@@ -191,7 +191,7 @@ border: 2px solid black;
 
 p{
 font-family: 'Poppins', sans-serif;
-font-size:3.2vw;
+font-size:3vw;
 padding:17px;
 }
 
