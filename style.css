@@ -9,6 +9,7 @@ user-select:none;
 -ms-user-select:none;
 -khtml-user-select:none;
 -webkit-user-select:none
+animation: fadeInUp .9s;
 }
 
 *{
@@ -16,6 +17,7 @@ box-sizing: border-box;
 margin:0;
 padding:0;
 text-align:center;
+animation: fadeInUp .9s;
 color:black;
 }
 
@@ -245,3 +247,22 @@ font-family: 'Poppins', sans-serif;
 animation:blinkrainbow 5s linear infinite
 }
 
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 150px, 0)
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        transform: translate3d(0, -150px, 0)
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity:nt;
+    }
+}
