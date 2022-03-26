@@ -219,7 +219,7 @@ text-align:left;
 }
 
 ul > li{
-padding:30px;
+line-height: 1.6;
 font-size:2.7vw;
 text-align:left;
 font-family: 'Poppins', sans-serif;
