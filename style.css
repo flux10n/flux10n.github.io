@@ -177,13 +177,13 @@ width:44%;
 margin-top:19%;
 border-radius:100%;
 box-shadow: 0px 0px 20px red;
-border: 5px solid black;
+border: 2px solid black;
 }
 img:hover{
 box-shadow: 0px 0px 20px blue;
 border-radius:100%;
 transition: 0.9s;
-border: 5px solid black;
+border: 2px solid black;
 }
 
 p{
