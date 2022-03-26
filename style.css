@@ -160,20 +160,25 @@ font-family: Arial, Helvetica, sans-serif;
 
 a{
 font-family: 'Poppins', sans-serif;
-color:red;
+color:black;
 text-decoration:none;
 }
 a:hover{
 color:red;
+opacity:0.9;
 transition:0.8s;
 text-decoration:none;
 }
-
-ul > li{
-font-size:2.7vw;
-text-align:left;
-font-family: 'Poppins', sans-serif;
-padding:35px;
+i{
+color:black;
+text-decoration:none;
+transition:0.8s;
+}
+i:hover{
+color:red;
+opacity:0.9;
+text-decoration:none;
+transition:0.8s;
 }
 
 h3{
