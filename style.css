@@ -206,39 +206,6 @@ padding:25px;
 text-align:left;
 }
 
-
-/* loading */
-.loading{
-position: fixed;
-height: 100%;
-width: 100%;
-top: 10px;
-left: 0;
-background: #091015;
-transition: .75s;
-}
-.loading-title {
-color: #fff;
-margin: 0;
-position: absolute;
-top: 50%;
-left: 50%;
--webkit-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);
-}
-
-.loading-progress {
-height: 11px;
-background: #091015;
-top: -11px;
-bottom: 0;
-width: 100%;
-position: absolute;
-transition: .35s;
-}
-/* akhir loading */
-
-
 /* font rainbow */
 @keyframes blinkrainbow{
 0%{color:#FF0000}
