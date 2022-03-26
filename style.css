@@ -197,13 +197,6 @@ margin-top:19%;
 border-radius:100%;
 box-shadow: 0px 0px 20px red;
 border: 2px solid black;
--webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
--o-user-select: none;
-user-select: none;
-pointer-events:none
 }
 img:hover{
 box-shadow: 0px 0px 20px blue;
