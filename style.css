@@ -169,11 +169,13 @@ font-family: 'Syne Mono', monospace;
 font-style: normal;
 font-weight: normal;
 color:black;
-margin-top: 1.7rem;
-text-decoration: underline;
 padding:25px;
 text-align:left;
 font-size:4.5vw;
+}
+.subtitle{
+margin-top: 1.7rem;
+text-decoration: underline;
 }
 
 h4{
