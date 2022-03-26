@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
 html{
 background-color: #EEEEFF; 
 scroll-behavior: smooth;
@@ -128,6 +129,7 @@ font-size: 40px;
 font-weight: 700;
 }
 
+
 /* Button setting */
 button{
 font-family: Arial, Helvetica, sans-serif;
@@ -153,6 +155,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 /* akhir */
   
+
 a{
 font-family: 'Noto Serif Display', serif;
 color:red;
@@ -163,6 +166,7 @@ color:red;
 font-family: 'Noto Serif Display', serif;
 text-decoration:none;
 }
+
 
 h3{
 font-family: 'Syne Mono', monospace;
@@ -211,6 +215,10 @@ font-family: 'Poppins', sans-serif;
 font-size:2.7vw;
 padding:25px;
 text-align:left;
+}
+
+ul > li{
+  line-height: 1.6;
 }
 
 /* font rainbow */
