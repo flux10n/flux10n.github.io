@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 html{
 background-color: #EEEEFF; 
 scroll-behavior: smooth;
@@ -26,12 +26,13 @@ align-items: center;
 justify-content: space-between;
 padding: 0 50px 0 100px;
 flex-wrap: wrap;
+font-family: 'Poppins', sans-serif;
 }
 nav .kepala{
 color: #00FF3B;
 font-size:32px;
 font-weight: 600;
-font-family: 'Poppins', sans-serif;
+font-family: 'Syne Mono', monospace;
 }
 nav ul{
 display: flex;
