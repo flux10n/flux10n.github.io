@@ -1,5 +1,5 @@
 html{
-background-color: white; 
+background-color: #EEEEFF; 
 scroll-behavior: smooth;
 user-select:none;
 -moz-user-select:none;
@@ -173,7 +173,7 @@ transition: 0.7s;
 }
 
 img{
-width:40%;
+width:45%;
 margin-top:19%;
 border-radius:100%;
 box-shadow: 0px 0px 20px red;
