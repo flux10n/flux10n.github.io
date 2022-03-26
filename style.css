@@ -9,6 +9,8 @@ user-select:none;
 }
 *{
 box-sizing: border-box;
+margin:0;
+padding:0;
 text-align:center;
 font-family: 'Questrial', sans-serif;
 } 
@@ -187,7 +189,7 @@ border: 5px solid black;
 p{
 font-family: 'Questrial', sans-serif;
 font-size:3vw;
-padding:20px;
+padding:17px;
 }
 
 /* font rainbow */
