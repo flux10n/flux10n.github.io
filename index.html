@@ -17,40 +17,10 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
 <script src="https://kit.fontawesome.com/ca7c0bc365.js" crossorigin="anonymous"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-<!-- Smooth scrooling -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-// Add smooth scrolling to all links
-$(".nav-link").on('click', function(event) {
-
-// Make sure this.hash has a value before overriding default behavior
-if (this.hash !== "") {
-// Prevent default anchor click behavior
-event.preventDefault();
-
-// Store hash
-var hash = this.hash;
-
-// Using jQuery's animate() method to add smooth page scroll
-// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-$('html, body').animate({
-scrollTop: $(hash).offset().top
-}, 800, function(){
-   
-// Add hash (#) to URL when done scrolling (default click behavior)
-window.location.hash = hash;
- });
- } // End if
- });
-});
-</script>
-<!-- Last smooth scrool -->
 </head>
 
-<body class="animate__animated animate__fadeIn">
-<!-- Navigasi menu -->
+<body>
+<!-- Header navbar -->
 <nav>
 <a href="/"><div class="kepala"><div class="blinkrainbow">HΣNGKΣR</div></div></a>
 <input type="checkbox" id="click">
@@ -67,6 +37,7 @@ window.location.hash = hash;
 </nav>
 <!-- akhir navigasi -->
 
+
 <!-- profil -->
 <img src="/img/setan.gif" alt="Halo kids"><br><br>
 
@@ -78,6 +49,12 @@ window.location.hash = hash;
 <h3 class="subtitle"><b><u>View my post</u></b></h3>
 <b><p>Nothing is easy in this world, only we determine whether we work or not and we are the ones who determine success.</p></b><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+
+<!-- loading animasi -->
+<div class="loading">
+<h1 class="loading-title">Process</h1>
+<div class="loading-progress"></div>
+</div>
 
 
 <i style="font-size:25vw; color:grey" class="fa-solid fa-book-skull"></i><br><br>
@@ -108,12 +85,6 @@ window.location.hash = hash;
  
 
  <b><h4>Design & Developed by -&nbsp;<a href="/"><i class="fa fa-refresh fa-spin"></i>&nbsp;Alfian</a><br>Copyright &copy; 2022</h4></b><br>
- 
-<!-- loading animasi -->
-<div class="loading">
-<h1 class="loading-title">Process</h1>
-<div class="loading-progress"></div>
-</div>
 
 </body>
 </html>
