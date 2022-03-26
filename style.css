@@ -172,6 +172,7 @@ text-decoration:none;
 
 ul > li{
 font-size:2.7vw;
+text-align:left;
 font-family: 'Poppins', sans-serif;
 padding:35px;
 }
