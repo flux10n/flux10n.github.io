@@ -16,6 +16,7 @@ box-sizing: border-box;
 margin:0;
 padding:0;
 text-align:center;
+color:black;
 }
 
 nav{
@@ -220,10 +221,7 @@ text-align:left;
 
 ul > li{
 line-height: 1.6;
-font-size:2.7vw;
-text-align:left;
 font-family: 'Poppins', sans-serif;
-color:black;
 }
 
 /* font rainbow */
@@ -254,23 +252,7 @@ font-family: 'Poppins', sans-serif;
 animation:blinkrainbow 5s linear infinite
 }
 
-@keyframes fadeInUp {
-from {
-transform: translate3d(0, 150px, 0)
+@media {
+html{
+font-size: .85em;
 }
-to {
-transform: translate3d(0, 0, 0);
-opacity: 1
-    }
-}
-
-@keyframes fadeInDown {
-from {
-transform: translate3d(0, -150px, 0)
-}
-to {
-transform: translate3d(0, 0, 0);
-opacity: 1
-}
-}
-  
