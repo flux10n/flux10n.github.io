@@ -167,10 +167,11 @@ h3{
 font-family:sans-serif;
 color:black;
 letter-spacing:0.5px;
-font-size:4vw;
+font-size:6vw;
 }
 h3:hover{
-color: blue;
+color: black;
+opacity:0.8;
 transition: 0.7s;
 }
 
