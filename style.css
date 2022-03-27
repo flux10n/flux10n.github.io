@@ -184,10 +184,11 @@ h3{
 font-family: 'Syne Mono', monospace;
 font-style: normal;
 font-weight: normal;
+font-size: 2em;
+margin-top: 1.7rem;
 color:black;
 padding:25px;
 text-align:left;
-font-size:4.5vw;
 }
 .subtitle{
 margin-top: 1.7rem;
