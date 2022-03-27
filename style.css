@@ -188,7 +188,6 @@ font-weight: normal;
 color:black;
 padding:25px;
 text-align:left;
-animation: fadeInUp .9s;
 font-size:4.5vw;
 }
 .subtitle{
@@ -221,7 +220,6 @@ p{
 font-family: 'Poppins', sans-serif;
 font-size:2.7vw;
 padding:25px;
-animation: fadeInUp .9s;
 text-align:left;
 }
 
@@ -254,22 +252,3 @@ font-family: 'Poppins', sans-serif;
 animation:blinkrainbow 5s linear infinite
 }
 
-@keyframes fadeInUp {
-    from {
-        transform: translate3d(0, 150px, 0)
-    }
-    to {
-        transform: translate3d(0, 0, 0);
-        opacity: 1
-    }
-}
-
-@keyframes fadeInDown {
-    from {
-        transform: translate3d(0, -150px, 0)
-    }
-    to {
-        transform: translate3d(0, 0, 0);
-        opacity:nt;
-    }
-}
