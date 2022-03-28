@@ -57,7 +57,7 @@ transition: all 0.3s ease;
 nav ul li a.active,
 nav ul li a:hover{
 color: white;
-background: white;
+background-color: black;
 }
 nav .menu-btn i{
 color: #fff;
