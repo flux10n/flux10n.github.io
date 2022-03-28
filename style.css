@@ -22,7 +22,7 @@ nav{
 display: flex;
 height: 80px;
 width: 100%;
-background: #1b1b1b;
+background: #006EFF;
 align-items: center;
 justify-content: space-between;
 padding: 0 50px 0 100px;
@@ -56,8 +56,8 @@ transition: all 0.3s ease;
 }
 nav ul li a.active,
 nav ul li a:hover{
-color: #111;
-background: #fff;
+color: black;
+background: white;
 }
 nav .menu-btn i{
 color: #fff;
