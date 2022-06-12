@@ -1,15 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
 hr {
-    border:0;
-    height:1px;
-    background-image: linear-gradient(to right, #000, lime, lime, #000);
+        border:0;
+        height:1px;
+        background-image: linear-gradient(to right, #000, lime, lime, #000);
 }
  
 html {
-    background: #000000;
+        background: #000000;
 	color: #ffffff;
 	font-size: 12px;
 	width: 100%;
+        font-family:courier;
+        font-style:italic;
 }
 
 ul {
