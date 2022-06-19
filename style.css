@@ -2,13 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 
 html{
-background-color: #EEEEFF; 
+background-color: #fff; 
 scroll-behavior: smooth;
-user-select:none;
--moz-user-select:none;
--ms-user-select:none;
--khtml-user-select:none;
--webkit-user-select:none
 }
 
 *{
@@ -130,6 +125,7 @@ font-size: 40px;
 font-weight: 700;
 }
 
+::selection{color:#00;background:#000080}
 
 /* Button setting */
 button{
