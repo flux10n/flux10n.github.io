@@ -125,7 +125,7 @@ font-size: 40px;
 font-weight: 700;
 }
 
-::selection{color:#00;background:#000080}
+::selection{color:#fff;background:blue}
 
 /* Button setting */
 button{
