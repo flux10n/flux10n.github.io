@@ -7,14 +7,14 @@ html{
 margin-left:1em;
 margin-right:1em;
 margin-top:-1.5em;
-background:#189048!important;
+background:#000!important;
 font-family:Courier;
 }
 .x{
 text-align:center
 }.y{
 font-family:i;font-size:calc(2.3em + 2.3vw);
-color:#181818
+color:#fff
 }
 .y:hover{
 color:#fff
@@ -23,7 +23,7 @@ color:#fff
 color:#fff
 }
 .b{
-color:#000
+color:#fff
 }
 .q{
 margin-top:.5em
