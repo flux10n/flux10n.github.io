@@ -1,9 +1,5 @@
-/*--------------------------------------------------------------
-# SOLID!!! SOLID!!! SOLID!!!
---------------------------------------------------------------*/
-
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
-
 .row-space-bottom-md {
     padding-bottom: 60px;
 }
@@ -1415,6 +1411,12 @@ code {
 	overflow: hidden;
 }
 
+mark {
+	color: #000000;
+	background: #FFFFFF;
+	padding: 0 5px; 
+}
+
 a {
 	text-decoration: none;
 	color: #b3d4fc;
@@ -1433,6 +1435,33 @@ u {
 	-ms-user-select: none;
 	user-select: none;
 	overflow: hidden;
+}
+
+blockquote {
+    margin: 0;
+}
+
+blockquote  {
+    padding: 15px;
+    background: #1e1e1e;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border-left: 3px solid grey;
+    -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	overflow: hidden;
+}
+
+blockquote::before {
+    content: '\201C';
+}
+
+blockquote::after {
+    content: '\201D';
 }
 
 .container {
@@ -1949,7 +1978,6 @@ u {
 	text-decoration: none;
 	transition: all 0.3s;
 }
-
 .btnxd:hover {
 	transition: all 0.2s;
 	background: #000000;
