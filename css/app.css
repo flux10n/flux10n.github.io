@@ -1,5 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+/*--------------------------------------------------------------
+# SOLID!!! SOLID!!! SOLID!!!
+--------------------------------------------------------------*/
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
 .row-space-bottom-md {
     padding-bottom: 60px;
 }
@@ -1417,7 +1421,7 @@ a {
 }
 
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 	color: #b3d4fc;
 }
 
@@ -1945,6 +1949,7 @@ u {
 	text-decoration: none;
 	transition: all 0.3s;
 }
+
 .btnxd:hover {
 	transition: all 0.2s;
 	background: #000000;
