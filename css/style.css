@@ -1426,6 +1426,7 @@ code {
 
 mark {
 	color: #000000;
+        border-radius: 5px;
 	background: #FFFFFF;
 	padding: 0 5px; 
 }
