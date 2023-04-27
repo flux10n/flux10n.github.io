@@ -982,11 +982,9 @@ private! private! private! private! private! private! private! private! private!
     width: 100%;
     height: 100%;
     background-color: black;
-    /* in case the video doesn't fit the whole page*/
     background-position: center center;
     background-size: contain;
     object-fit: cover;
-    /*cover video background */
     z-index: -1;
 }
 
@@ -1290,7 +1288,7 @@ video::-webkit-media-controls {
     margin-top: 2rem;
 }
 
-/* Slider */
+/* Slick */
 .slick-slider {
     position: relative;
     display: block;
@@ -1976,8 +1974,8 @@ blockquote::after {
     text-decoration: none;
     color: #FFFFFF;
     text-transform: uppercase;
-    letter-spacing: 8px;
-    font-size: 0.4rem;
+    letter-spacing: 5px;
+    font-size: 0.7rem;
     font-weight: bold;
     font-family: Courier New;
     -webkit-touch-callout: none;
@@ -1989,6 +1987,7 @@ blockquote::after {
     overflow: hidden;
 }
 
+/* Button XD */
 .btnxd {
 	padding: 11px 43px;
 	font-family: 'Quicksand', sans-serif;
