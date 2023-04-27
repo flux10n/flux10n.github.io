@@ -1976,8 +1976,9 @@ blockquote::after {
     text-decoration: none;
     color: #FFFFFF;
     text-transform: uppercase;
-    letter-spacing: 6px;
-    font-size: 0.5rem;
+    letter-spacing: 8px;
+    font-size: 0.4rem;
+    font-weight: bold;
     font-family: Courier New;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
