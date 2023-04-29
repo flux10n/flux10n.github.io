@@ -1460,19 +1460,19 @@ blockquote {
     margin: 0;
 }
 
-blockquote  {
+blockquote {
     padding: 15px;
-    background: #1e1e1e;
+    background: #002D4F;
     color: #FFFFFF;
     border-radius: 5px;
-    border-left: 3px solid grey;
+    border-left: 3px solid #0091FF;
     -webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	overflow: hidden;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+     user-select: none;
+     overflow: hidden;
 }
 
 blockquote::before {
