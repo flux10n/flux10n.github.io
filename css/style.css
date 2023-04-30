@@ -209,9 +209,9 @@ private! private! private! private! private! private! private! private! private!
 }
 
 ::selection {
-	background: #FFFFFF;
-	color: #000000;
-	}
+    background: #FFFFFF;
+    color: #000000;
+}
 
 .button-spacer {
     padding: 20px 0;
