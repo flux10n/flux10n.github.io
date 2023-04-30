@@ -13,6 +13,11 @@ private! private! private! private! private! private! private! private! private!
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 
+/*
+-------------------------------------------------------------------------------------------
+#menucon tag
+-------------------------------------------------------------------------------------------
+*/
 #menucon {
         -webkit-touch-callout: none;
 	-webkit-user-select: none;
