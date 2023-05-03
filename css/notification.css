@@ -7,7 +7,7 @@ font-family: 'Poppins', sans-serif;
 .notification {
 position: absolute;
 bottom: 50px;
-left: 50px;
+left: 5px;
 width: max-content;
 padding: 8px 20px; 
 border-radius: 6px;
@@ -26,7 +26,8 @@ left: 5px;
 bottom: 5px;
 width: calc(100% - 10px);
 height: 3px;
-transform: scalex(0); transform-origin: left;
+transform: scalex(0); 
+transform-origin: left;
 background-image: linear-gradient(to right, #0859C6, #0C71E0, #10A5F5, #00DBFF, #00FFFF);
 border-radius: inherit;
 animation: load 3s 0.25s linear forwards;
